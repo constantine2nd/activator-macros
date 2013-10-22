@@ -11,7 +11,7 @@ object Simple {
     import c.universe._
 
     reify {
-      println("Constant " + message.splice)
+      println("Constant of " + message.splice)
     }
   }
 
